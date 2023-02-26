@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f27d12;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+color:#EDEAE5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #f1f1f1;
+}
+
+#hero {
+background-image: url('https://thrivemeetings.com/wp-content/uploads/2019/05/Food-Allergies-thrive-meetings.jpg');
+background-size: cover;
+background-position: center;
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+#hero h2 {
+font-size: 48px;
+margin: 0;
+text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+#hero p {
+font-size: 24px;
+margin: 20px 0;
+text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+#hero button {
+padding: 10px 20px;
+font-size: 24px;
+background-color: #fff;
+color: #333;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+#hero button:hover {
+background-color: #f1f1f1;
+}
+
+#services {
+background-color: #EDEAE5;
+padding: 50px 20px;
+text-align: center;
+}
+
+#services h3 {
+margin: 0;
+text-transform: uppercase;
+color: #333;
+}
+
+#services ul {
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 50px 0;
+}
+
+#services li {
+max-width: 300px;
+margin: 0 20px;
+}
+
+#services img {
+width: 100%;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+#services h4 {
+margin: 0;
+color: #333;
+}
+
+#services p {
+font-size: 18px;
+line-height: 1.5;
+color: #666;
+}
+
+#about {
+background-color: #fff;
+padding: 50px;
+text-align: center;
+}
+
+#about h3 {
+margin: 0;
+text-transform: uppercase;
+color: #333;
+}
+
+#about img {
+max-width: 100%;
+margin: 20px 0;
+}
+
+#about p {
+font-size: 18px;
+line-height: 1.5;
+color: #666;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:#fed8b1;">
+  <header>
+    <h1>ALLERGENIE</h1>
+<!--    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>	-->
+  </header>
+
+  <section id="hero">
+    <h2>Healthy Eating Starts Here</h2>
+    <p>Find the substitute recipes for your allergies!</p>
+    <form method = "post" action="allergy/">
+
+        {% csrf_token %}
+        <button type = "submit">Get Started</button>
+    
+    </form> 
+  </section>
+
+  {% comment %} <section id="services">
+    <h3>Our Services</h3>
+    <ul>
+      <li>
+        <img src="https://via.placeholder.com/150" alt="Icon">
+        <h4>Personalized Meal Plans</h4>
+        <p>Get customized meal plans based on your dietary needs and preferences.</p>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/150" alt="Icon">
+        <h4>Nutrition Coaching</h4>
+        <p>Work with a registered dietitian to develop healthy eating habits and achieve your goals.</p>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/150" alt="Icon">
+        <h4>Healthy Recipes</h4>
+        <p>Discover delicious and nutritious recipes for every meal and snack.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <img src="https://via.placeholder.com/300" alt="Image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et magna vitae neque fermentum pulvinar. Sed euismod mauris augue, non gravida leo bibendum non. Integer euismod, augue sed luctus mollis, lacus justo finibus eros, at posuere velit orci vel libero.</p>
+  </section> {% endcomment %}
+
+</body>
+</html>

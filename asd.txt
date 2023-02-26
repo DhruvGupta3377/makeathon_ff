@@ -1,0 +1,707 @@
+CREATE TABLE recipe(
+   aid        INTEGER 
+  ,recipe     VARCHAR(1785) NOT NULL
+  ,substitute VARCHAR(38) NOT NULL
+);
+INSERT INTO recipe(aid,recipe,substitute) VALUES (1,'Here''s a simple and delicious oat milk smoothie recipe:
+
+Ingredients:
+
+1 banana, frozen
+1/2 cup frozen berries (such as strawberries, blueberries, or raspberries)
+1/2 cup oat milk
+1 tablespoon honey or maple syrup (optional)
+1 tablespoon chia seeds (optional)
+1/2 teaspoon vanilla extract (optional)
+Instructions:
+
+Add all ingredients to a blender and blend until smooth and creamy.
+If the mixture is too thick, add more oat milk until desired consistency is reached.
+Taste and adjust sweetness as desired with honey or maple syrup.
+Pour the smoothie into a glass and enjoy!
+You can also customize this recipe by adding in other ingredients such as spinach, kale, nut butter, or protein powder. The possibilities are endless!','Oat milk smoothie');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (1,'Almond milk kheer is a delicious and creamy Indian dessert that is made with almond milk, rice, and sugar. Here''s a recipe to try:
+
+Ingredients:
+
+4 cups almond milk
+1/2 cup basmati rice
+1/2 cup sugar
+1/2 teaspoon cardamom powder
+2 tablespoons slivered almonds
+2 tablespoons chopped pistachios
+Instructions:
+
+Rinse the basmati rice and soak it in water for 30 minutes.
+In a large pot, bring the almond milk to a boil over medium-high heat.
+Drain the soaked rice and add it to the boiling almond milk. Reduce the heat to medium-low and let it cook for 20-25 minutes, stirring occasionally, until the rice is cooked and the mixture has thickened.
+Add the sugar and cardamom powder and stir until the sugar has dissolved.
+Turn off the heat and let the kheer cool for a few minutes.
+Once the kheer has cooled, transfer it to a serving bowl and garnish with slivered almonds and chopped pistachios.
+Serve chilled or at room temperature.
+Enjoy this delicious and dairy-free version of kheer made with almond milk! You can also add saffron for an extra burst of flavor and color.','Almond milk kheer');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (1,'Here''s a recipe for fluffy and delicious vegan pancakes:
+
+Ingredients:
+
+1 cup all-purpose flour
+2 tablespoons granulated sugar
+2 teaspoons baking powder
+1/2 teaspoon salt
+1 cup non-dairy milk (such as almond, soy, or oat milk)
+2 tablespoons vegetable oil or melted coconut oil
+1 teaspoon vanilla extract
+Instructions:
+
+In a mixing bowl, whisk together the flour, sugar, baking powder, and salt.
+In a separate bowl, whisk together the non-dairy milk, vegetable oil, and vanilla extract.
+Pour the wet ingredients into the dry ingredients and whisk until just combined. Do not overmix - a few lumps are okay.
+Heat a non-stick pan or griddle over medium heat. Once hot, ladle the batter onto the pan to form pancakes.
+Cook the pancakes for 2-3 minutes on one side, until bubbles start to form on the surface. Flip the pancake and cook for an additional 1-2 minutes on the other side, until golden brown.
+Repeat with the remaining batter.
+Serve the pancakes with your favorite toppings, such as fresh fruit, maple syrup, vegan butter, or vegan whipped cream.
+Enjoy your fluffy and delicious vegan pancakes! You can also add in some spices like cinnamon or nutmeg to the batter for some extra flavor.','Vegan pancakes');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (2,'Here''s a recipe for a delicious and easy eggless cake:
+
+Ingredients:
+
+2 cups all-purpose flour
+1 cup granulated sugar
+1 teaspoon baking soda
+1 teaspoon baking powder
+1/2 teaspoon salt
+1 and 1/2 cups non-dairy milk (such as almond, soy, or oat milk)
+1/2 cup vegetable oil or melted coconut oil
+2 tablespoons white vinegar
+1 tablespoon vanilla extract
+Instructions:
+
+Preheat the oven to 350�F (180�C) and grease a 9-inch (23 cm) cake pan.
+In a mixing bowl, whisk together the flour, sugar, baking soda, baking powder, and salt.
+In a separate bowl, whisk together the non-dairy milk, vegetable oil, white vinegar, and vanilla extract.
+Pour the wet ingredients into the dry ingredients and whisk until just combined. Do not overmix - a few lumps are okay.
+Pour the batter into the greased cake pan and smooth out the top with a spatula.
+Bake for 35-40 minutes, or until a toothpick inserted into the center comes out clean.
+Let the cake cool in the pan for 5-10 minutes, then transfer it to a wire rack to cool completely.
+Once the cake has cooled, decorate it with your favorite frosting or toppings, such as fresh fruit, whipped cream, or chocolate ganache.
+Enjoy your delicious and easy eggless cake! You can also add in some cocoa powder to the batter for a chocolate version.','Eggless cake');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (2,'Besan omelette is a tasty vegan alternative to the traditional egg-based omelette. Here''s a simple recipe:
+
+Ingredients:
+
+1 cup besan (chickpea flour)
+1/4 cup finely chopped onion
+1/4 cup finely chopped tomato
+1/4 cup finely chopped bell pepper
+1/4 teaspoon turmeric powder
+1/4 teaspoon red chili powder (optional)
+Salt, to taste
+Water, as needed
+Oil, for cooking
+Instructions:
+
+In a mixing bowl, whisk together the besan, turmeric powder, red chili powder (if using), and salt.
+Gradually add water to the mixture, whisking continuously, until a smooth batter is formed.
+Add the chopped onion, tomato, and bell pepper to the batter and mix well.
+Heat a non-stick pan over medium heat and add a little oil to coat the surface.
+Pour a ladleful of the besan batter onto the pan and spread it out into a thin omelette shape.
+Cook the besan omelette for 2-3 minutes on one side, until golden brown. Flip the omelette and cook for an additional 1-2 minutes on the other side.
+Repeat with the remaining batter.
+Serve the besan omelette hot with your favorite chutney or ketchup.
+Enjoy your delicious and vegan besan omelette! You can also add in other veggies like spinach, mushrooms, or grated carrots to the batter for some extra nutrition and flavor.','Besan omlette');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (2,'Here are three delicious bean recipes you can try:
+
+Black Bean and Sweet Potato Enchiladas:
+Ingredients:
+1 can black beans, drained and rinsed
+1 large sweet potato, peeled and diced
+1 red onion, diced
+2 cloves garlic, minced
+1 tablespoon olive oil
+1 teaspoon chili powder
+1/2 teaspoon cumin
+Salt and pepper, to taste
+8-10 corn tortillas
+1 can enchilada sauce
+1 cup shredded cheese (vegan or regular)
+Instructions:
+
+Preheat the oven to 375�F (190�C).
+
+In a skillet, saut� the sweet potato, onion, and garlic in olive oil until softened, about 5-7 minutes.
+
+Add the black beans, chili powder, cumin, salt, and pepper to the skillet and stir to combine.
+
+In a 9x13 inch baking dish, spread a layer of enchilada sauce.
+
+Warm the corn tortillas in the microwave or on a skillet to make them pliable.
+
+Place some of the black bean and sweet potato mixture on each tortilla and roll it up. Place the enchiladas seam side down in the baking dish.
+
+Pour the remaining enchilada sauce over the enchiladas and sprinkle with shredded cheese.
+
+Bake for 20-25 minutes, or until the cheese is melted and bubbly.','Black bean and sweet potato enchiladas');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (3,'Here''s a simple and delicious recipe using almond butter:
+
+Almond Butter Energy Bites
+
+Ingredients:
+
+1 cup old-fashioned oats
+1/2 cup almond butter
+1/3 cup honey
+1/4 cup mini chocolate chips
+1/4 cup chopped nuts (optional)
+1 teaspoon vanilla extract
+Pinch of salt
+Instructions:
+
+In a mixing bowl, combine all the ingredients and mix well.
+Place the mixture in the refrigerator for 30 minutes to an hour, to make it easier to form into balls.
+Use your hands to form the mixture into small balls, about the size of a tablespoon.
+Place the energy bites on a baking sheet lined with parchment paper.
+Refrigerate the energy bites for at least 30 minutes before serving.
+Store the energy bites in an airtight container in the refrigerator for up to a week.
+Enjoy these tasty and nutritious almond butter energy bites as a snack or as a quick breakfast on the go!','Almond butter');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (3,'Here''s a recipe using sunflower seed butter that''s perfect for breakfast or a snack:
+
+Sunflower Seed Butter and Jelly Smoothie Bowl
+
+Ingredients:
+
+1 banana, frozen
+1/2 cup frozen mixed berries
+1/4 cup almond milk
+1 tablespoon sunflower seed butter
+1 tablespoon honey
+1/4 teaspoon vanilla extract
+2 tablespoons your favorite jelly or jam
+Toppings of your choice (fresh fruit, granola, chia seeds, etc.)
+Instructions:
+
+Add the frozen banana, frozen berries, almond milk, sunflower seed butter, honey, and vanilla extract to a blender.
+Blend until smooth and creamy.
+Pour the smoothie mixture into a bowl.
+Spoon the jelly or jam on top of the smoothie mixture.
+Use a knife to swirl the jelly or jam into the smoothie mixture.
+Top the smoothie bowl with your favorite toppings.
+Serve immediately and enjoy!
+This smoothie bowl is a fun and delicious way to enjoy the nutty flavor of sunflower seed butter, while also getting a healthy dose of fruits and veggies.','Sunflower seed butter');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (3,'Here''s a simple and tasty recipe for roasted beans:
+
+Ingredients:
+
+1 pound fresh green beans, trimmed
+1 tablespoon olive oil
+1/2 teaspoon garlic powder
+1/2 teaspoon onion powder
+1/2 teaspoon salt
+1/4 teaspoon black pepper
+Instructions:
+
+Preheat the oven to 425�F (220�C).
+In a large mixing bowl, toss the green beans with the olive oil, garlic powder, onion powder, salt, and pepper until the beans are evenly coated.
+Spread the green beans out in a single layer on a baking sheet lined with parchment paper.
+Roast the green beans for 15-20 minutes, stirring halfway through, until they are tender and slightly browned.
+Serve the roasted green beans immediately as a side dish or snack.
+These roasted green beans are a delicious and healthy way to enjoy this nutritious vegetable. Feel free to experiment with different seasonings and spices to find your favorite flavor combinations. Enjoy!
+
+
+Here''s a simple and tasty recipe for roasted beans:
+
+Ingredients:
+
+1 pound fresh green beans, trimmed
+1 tablespoon olive oil
+1/2 teaspoon garlic powder
+1/2 teaspoon onion powder
+1/2 teaspoon salt
+1/4 teaspoon black pepper
+Instructions:
+
+Preheat the oven to 425�F (220�C).
+In a large mixing bowl, toss the green beans with the olive oil, garlic powder, onion powder, salt, and pepper until the beans are evenly coated.
+Spread the green beans out in a single layer on a baking sheet lined with parchment paper.
+Roast the green beans for 15-20 minutes, stirring halfway through, until they are tender and slightly browned.
+Serve the roasted green beans immediately as a side dish or snack.
+These roasted green beans are a delicious and healthy way to enjoy this nutritious vegetable. Feel free to experiment with different seasonings and spices to find your favorite flavor combinations. Enjoy!','Roasted beans');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (4,'Here''s a recipe for buckwheat roti:
+
+Ingredients:
+
+1 cup buckwheat flour
+1/2 cup water
+Salt to taste
+Ghee or oil for cooking
+Instructions:
+
+In a mixing bowl, combine the buckwheat flour and salt.
+Add water to the flour mixture, a little at a time, and knead until you have a smooth and pliable dough.
+Cover the dough and let it rest for 15-20 minutes.
+Divide the dough into equal-sized balls.
+On a floured surface, roll out each ball into a thin, round roti.
+Heat a tawa or griddle on medium-high heat.
+Place a roti on the tawa and cook for 1-2 minutes or until bubbles appear on the surface.
+Flip the roti and cook for an additional minute or until both sides are golden brown.
+Repeat with the remaining dough balls, adding ghee or oil to the tawa as needed.
+Serve the buckwheat roti hot with your favorite curry or chutney. These rotis are gluten-free and a great alternative to traditional wheat flour rotis. Enjoy!','Buckwheat roti');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (4,'Here''s a recipe for a delicious quinoa salad:
+
+Ingredients:
+
+1 cup uncooked quinoa
+2 cups water or vegetable broth
+1 can (15 oz) black beans, rinsed and drained
+1 red bell pepper, chopped
+1 yellow bell pepper, chopped
+1 small red onion, chopped
+1 cup cherry tomatoes, halved
+1/2 cup chopped fresh cilantro
+Juice of 1 lime
+3 tablespoons olive oil
+1 teaspoon ground cumin
+Salt and pepper to taste
+Instructions:
+
+Rinse the quinoa thoroughly under cold water and drain well.
+In a medium saucepan, bring the water or vegetable broth to a boil. Add the quinoa and reduce heat to low. Cover and simmer for 15-20 minutes or until the quinoa is tender and the water is absorbed.
+Remove the quinoa from heat and let it cool.
+In a large mixing bowl, combine the cooked quinoa, black beans, bell peppers, red onion, cherry tomatoes, and cilantro.
+In a small mixing bowl, whisk together the lime juice, olive oil, cumin, salt, and pepper.
+Pour the dressing over the quinoa salad and toss to coat.
+Serve the quinoa salad immediately or refrigerate until ready to serve.
+This quinoa salad is packed with protein, fiber, and flavor, making it a healthy and satisfying meal or side dish. Enjoy!','Quinoa salad');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (4,'Here''s a simple and delicious recipe for brown rice:
+
+Ingredients:
+
+1 cup brown rice
+2 cups water or vegetable broth
+1 tablespoon olive oil or butter (optional)
+Salt to taste (optional)
+Instructions:
+
+Rinse the brown rice thoroughly under cold water and drain well.
+In a medium saucepan, bring the water or vegetable broth to a boil.
+Add the rice, olive oil or butter (if using), and salt (if using) to the saucepan. Stir to combine.
+Reduce the heat to low and cover the saucepan with a tight-fitting lid.
+Simmer the rice for 40-45 minutes or until tender and the water is absorbed.
+Remove the saucepan from heat and let it sit, covered, for 5-10 minutes.
+Fluff the rice with a fork and serve.
+This brown rice is a versatile and healthy side dish that pairs well with a variety of entrees and vegetables. Enjoy!','Brown rice');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (5,'Here''s a simple recipe for flax seed crackers:
+
+Ingredients:
+
+1 cup flax seeds
+1/2 cup water
+1/2 teaspoon salt
+1/2 teaspoon garlic powder (optional)
+1/2 teaspoon onion powder (optional)
+1/2 teaspoon dried herbs (optional)
+Instructions:
+
+Preheat the oven to 350�F (175�C).
+In a mixing bowl, combine the flax seeds, water, salt, and any optional seasonings. Stir to combine and let it sit for 5-10 minutes to thicken.
+Spread the flax seed mixture thinly and evenly onto a baking sheet lined with parchment paper.
+Use a knife or pizza cutter to score the flax seed mixture into small squares or rectangles.
+Bake the flax seed crackers for 20-25 minutes or until golden brown and crispy.
+Remove the baking sheet from the oven and let the crackers cool completely.
+Break the crackers along the scored lines and serve.
+These flax seed crackers are a healthy and satisfying snack that''s rich in fiber and omega-3 fatty acids. Enjoy!','Flax seeds');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (5,'Here''s a delicious and healthy recipe for chia seed pudding:
+
+Ingredients:
+
+1/4 cup chia seeds
+1 cup unsweetened almond milk or other plant-based milk
+1-2 tablespoons maple syrup or honey (optional)
+1/2 teaspoon vanilla extract (optional)
+Fresh berries or sliced fruit for topping (optional)
+Instructions:
+
+In a mixing bowl, combine the chia seeds, almond milk, maple syrup or honey (if using), and vanilla extract (if using). Stir to combine.
+Let the chia seed mixture sit for 5-10 minutes to thicken. Stir again to make sure the chia seeds are evenly distributed and not clumped together.
+Transfer the chia seed mixture to a serving bowl or individual jars.
+Cover and refrigerate the chia seed pudding for at least 2-3 hours or overnight.
+When ready to serve, top the chia seed pudding with fresh berries or sliced fruit (if using).
+This chia seed pudding is a healthy and delicious breakfast, snack, or dessert that''s packed with fiber, protein, and omega-3 fatty acids. Enjoy!','Chia seeds');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (5,'Here''s a tasty and healthy recipe for roasted pumpkin seeds:
+
+Ingredients:
+
+1 cup raw pumpkin seeds
+1 tablespoon olive oil
+1/2 teaspoon garlic powder
+1/2 teaspoon onion powder
+1/2 teaspoon smoked paprika
+Salt to taste
+Instructions:
+
+Preheat the oven to 325�F (160�C).
+Rinse the raw pumpkin seeds under cold water and remove any pulp or debris.
+In a mixing bowl, toss the pumpkin seeds with olive oil and all of the seasonings until evenly coated.
+Spread the pumpkin seeds in a single layer on a baking sheet lined with parchment paper.
+Roast the pumpkin seeds for 15-20 minutes, stirring occasionally, until golden brown and crispy.
+Remove the baking sheet from the oven and let the pumpkin seeds cool completely.
+Store the roasted pumpkin seeds in an airtight container at room temperature for up to a week.
+These roasted pumpkin seeds are a delicious and healthy snack that''s rich in protein, fiber, and healthy fats. Enjoy! You can also sprinkle them over salads, soups, or use them as a crunchy topping for your favorite dishes.','Pumpkin seeds');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (9,'Here''s a simple recipe for a soybean burger:
+
+Ingredients:
+
+1 can (15 oz) of soybeans, drained and rinsed
+1/2 cup of rolled oats
+1/2 onion, finely chopped
+2 cloves of garlic, minced
+1/4 cup of bread crumbs
+1 tbsp of soy sauce
+1 tsp of ground cumin
+1/2 tsp of smoked paprika
+Salt and pepper, to taste
+2 tbsp of vegetable oil
+Instructions:
+
+In a mixing bowl, mash the soybeans with a fork or potato masher until they are mostly broken up but still have some texture.
+
+Add the rolled oats, onion, garlic, bread crumbs, soy sauce, cumin, smoked paprika, salt, and pepper to the bowl. Mix well to combine.
+
+Use your hands to form the mixture into patties, about 1/2 inch thick and 3 inches wide.
+
+Heat the vegetable oil in a skillet over medium-high heat. Add the patties and cook for 4-5 minutes per side, until golden brown and crispy.
+
+Serve the burgers on buns with your favorite toppings, such as lettuce, tomato, avocado, or cheese.
+
+Enjoy your homemade soybean burgers!','Soyabean Burger');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (9,'Here''s a simple and delicious recipe for grilled chicken:
+
+Ingredients:
+
+4 boneless, skinless chicken breasts
+2 tablespoons olive oil
+1 teaspoon paprika
+1 teaspoon garlic powder
+1 teaspoon onion powder
+1 teaspoon dried thyme
+Salt and pepper to taste
+Instructions:
+
+Preheat your grill to medium-high heat.
+In a small bowl, mix together the olive oil, paprika, garlic powder, onion powder, thyme, salt, and pepper to create a marinade.
+Place the chicken breasts in a shallow dish and pour the marinade over them, making sure to coat each breast evenly.
+Allow the chicken to marinate in the fridge for at least 30 minutes, or up to 4 hours if time permits.
+Remove the chicken from the marinade and discard any excess marinade.
+Place the chicken on the grill and cook for 6-7 minutes per side, or until the internal temperature reaches 165�F.
+Remove the chicken from the grill and let it rest for a few minutes before slicing and serving.
+Enjoy your delicious grilled chicken!','skinless chicken');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (9,'Here''s a recipe for falafel:
+
+Ingredients:
+
+2 cups of dried chickpeas
+1 onion, chopped
+3 cloves of garlic, minced
+1/2 cup of fresh parsley, chopped
+1/2 cup of fresh cilantro, chopped
+1 teaspoon of cumin
+1 teaspoon of coriander
+1/2 teaspoon of baking powder
+Salt and pepper to taste
+Oil for frying
+Instructions:
+
+Soak the chickpeas in water for at least 8 hours, or overnight. Drain and rinse the chickpeas thoroughly.
+
+In a food processor, pulse the chickpeas, onion, garlic, parsley, cilantro, cumin, coriander, baking powder, salt, and pepper until you get a coarse mixture. Don''t over-process it into a paste.
+
+Transfer the mixture to a bowl and cover it with plastic wrap. Refrigerate for at least an hour, or up to overnight.
+
+When you''re ready to fry the falafel, heat the oil in a deep fryer or a heavy-bottomed pot until it reaches 350�F.
+
+Using a cookie scoop or a spoon, form the falafel mixture into small balls or patties, about 1 1/2 inches in diameter.
+
+Carefully drop the falafel into the hot oil and fry until they''re golden brown and crispy, about 3-4 minutes.
+
+Using a slotted spoon, remove the falafel from the oil and drain them on a paper towel-lined plate.
+
+Serve the falafel hot with pita bread, hummus, tzatziki, or your favorite dipping sauce. Enjoy!','falafel');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (8,'Here''s a simple and delicious recipe for prawns:
+
+Ingredients:
+
+500g prawns, peeled and deveined
+2 cloves garlic, minced
+2 tablespoons butter
+1 tablespoon olive oil
+1 teaspoon paprika
+Salt and pepper to taste
+Fresh lemon wedges
+Instructions:
+
+In a large frying pan, melt the butter with the olive oil over medium heat.
+
+Add the minced garlic and cook for 1-2 minutes until fragrant.
+
+Add the prawns to the pan and cook for 2-3 minutes per side until pink and cooked through.
+
+Season the prawns with paprika, salt, and pepper to taste.
+
+Serve hot with fresh lemon wedges on the side.
+
+Note: You can also add some chopped parsley or cilantro for extra flavor and garnish. Additionally, this recipe can be easily adjusted to include other spices or herbs according to your preference. Enjoy!','prawns');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (8,'Here''s a delicious recipe using smoked carrot salmon:
+
+Ingredients:
+
+200g smoked carrot salmon, sliced
+250g spaghetti
+2 tablespoons olive oil
+2 cloves garlic, minced
+1 small onion, finely chopped
+1/2 cup white wine
+1/2 cup heavy cream
+1/4 cup grated parmesan cheese
+Salt and pepper to taste
+Fresh parsley, chopped
+Instructions:
+
+Cook the spaghetti according to package instructions until al dente. Drain and set aside.
+
+In a large pan, heat the olive oil over medium heat. Add the garlic and onion and saut� until softened, about 2-3 minutes.
+
+Add the white wine and bring to a simmer. Cook for a few minutes until the wine has reduced by half.
+
+Add the heavy cream to the pan and bring to a boil. Reduce the heat and simmer for 2-3 minutes until the sauce has thickened.
+
+Add the smoked carrot salmon to the pan and stir to combine. Cook for 1-2 minutes until the salmon is heated through.
+
+Add the cooked spaghetti to the pan and toss to coat with the sauce.
+
+Stir in the grated parmesan cheese and season with salt and pepper to taste.
+
+Garnish with chopped parsley and serve immediately.
+
+Note: You can also add some chopped cherry tomatoes or baby spinach leaves for extra color and flavor. Enjoy!','smoked carrot salmon');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (8,'Ingredients:
+
+500g white fish (such as cod or haddock), cubed
+200g button mushrooms, sliced
+1 onion, diced
+2 cloves of garlic, minced
+2 tbsp butter
+2 tbsp plain flour
+300ml milk
+100g grated cheddar cheese
+1 tsp dried thyme
+Salt and pepper to taste
+500g potatoes, peeled and diced
+50g butter
+50ml milk
+Salt and pepper to taste
+Instructions:
+
+Preheat the oven to 180�C.
+
+In a large pan, saut� the onion and garlic in butter until softened.
+
+Add the mushrooms and cook until they have released their moisture and are lightly browned.
+
+Add the fish and cook for 5 minutes, until the fish is cooked through.
+
+Sprinkle the flour over the fish and vegetables and stir to combine.
+
+Slowly pour in the milk, stirring constantly to prevent lumps from forming.
+
+Simmer for a few minutes until the sauce thickens.
+
+Add the grated cheese, thyme, salt, and pepper and stir until the cheese has melted.
+
+Transfer the fish and mushroom mixture to an oven-proof dish.
+
+In a separate pan, boil the diced potatoes until soft.
+
+Drain the potatoes and mash them with the butter and milk.
+
+Season with salt and pepper to taste.
+
+Spread the mashed potatoes over the fish and mushroom mixture, using a fork to create a pattern on the top.
+
+Bake in the oven for 25-30 minutes, or until the top is golden and the filling is bubbling.
+
+Serve hot and enjoy!','mushroom fish pie');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (7,'Here''s a recipe for a delicious Vinegar-based Barbecue Sauce that yields about 2 cups:
+
+Ingredients:
+
+1 cup ketchup
+1/2 cup apple cider vinegar
+1/4 cup brown sugar
+1 tablespoon Worcestershire sauce
+1 tablespoon Dijon mustard
+2 cloves garlic, minced
+1 teaspoon smoked paprika
+1/2 teaspoon onion powder
+Salt and pepper, to taste
+Instructions:
+
+In a medium saucepan, combine the ketchup, apple cider vinegar, brown sugar, Worcestershire sauce, Dijon mustard, garlic, smoked paprika, and onion powder. Whisk until well combined.
+
+Place the saucepan over medium heat and bring the mixture to a simmer. Reduce the heat to low and let the sauce cook, stirring occasionally, for about 15-20 minutes or until it has thickened slightly.
+
+Taste the sauce and season with salt and pepper to your liking.
+
+Remove the sauce from the heat and let it cool to room temperature before transferring it to a jar or container. The sauce will keep in the refrigerator for up to 2 weeks.
+
+Use the sauce to brush onto grilled or roasted meats, or as a dipping sauce for fries or vegetables. Enjoy!','vinegar based barbecue sauce');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (7,'Here''s a recipe for a Ginger and Honey Glazed Salmon that serves 4:
+
+Ingredients:
+
+4 salmon fillets, skin on or off
+2 tablespoons ginger paste
+2 tablespoons honey
+2 tablespoons soy sauce
+1 tablespoon orange juice
+Salt and pepper, to taste
+2 tablespoons vegetable oil
+Sliced green onions and sesame seeds, for garnish
+Instructions:
+
+Preheat the oven to 400�F (200�C). Line a baking sheet with parchment paper or aluminum foil.
+
+In a small bowl, whisk together the ginger paste, honey, soy sauce, orange juice, salt, and pepper.
+
+Pat the salmon fillets dry with paper towels and season with salt and pepper.
+
+Heat the vegetable oil in a large skillet over medium-high heat. Add the salmon fillets, skin-side down if using skin-on, and cook for 3-4 minutes until golden brown. Flip the fillets and cook for an additional 2-3 minutes until browned on the other side.
+
+Brush the ginger and honey glaze over the tops of the salmon fillets, then transfer them to the prepared baking sheet.
+
+Bake the salmon in the preheated oven for 8-10 minutes, or until the fish is cooked through and flakes easily with a fork.
+
+Garnish the salmon with sliced green onions and sesame seeds before serving. Serve hot with steamed rice or your favorite vegetables. Enjoy!','ginger and honey glazed salmon');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (7,'Here''s a recipe for Tamarind Chutney that yields about 1 cup:
+
+Ingredients:
+
+1/2 cup tamarind paste
+1/2 cup sugar
+1 tablespoon grated ginger
+2 garlic cloves, minced
+1/2 teaspoon chili powder
+1/2 teaspoon ground cumin
+1/2 teaspoon salt
+1/2 cup water
+Instructions:
+
+In a small saucepan, combine the tamarind paste, sugar, ginger, garlic, chili powder, cumin, salt, and water. Stir well to combine.
+
+Place the saucepan over medium-high heat and bring the mixture to a boil. Reduce the heat to low and let the chutney simmer for about 15-20 minutes, or until it has thickened and the sugar has dissolved.
+
+Remove the saucepan from the heat and let the chutney cool to room temperature.
+
+Transfer the chutney to a blender or food processor and blend until smooth. If the chutney is too thick, you can add a little water to thin it out.
+
+Taste the chutney and adjust the seasoning if necessary. You can add more sugar, salt, or chili powder to your liking.
+
+Transfer the chutney to a jar or container and store it in the refrigerator for up to 2 weeks. Serve with samosas, pakoras, or other Indian snacks. Enjoy!','Tamarind Chutney');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (6,'Here''s a recipe for Quinoa Stuffed Peppers:
+
+Ingredients:
+
+4 bell peppers (any color)
+1 cup quinoa, rinsed
+1 tablespoon olive oil
+1 onion, chopped
+2 cloves garlic, minced
+1 can black beans, drained and rinsed
+1 cup corn kernels (fresh or frozen)
+1 can diced tomatoes
+1 tablespoon chili powder
+1 teaspoon ground cumin
+Salt and pepper, to taste
+1/4 cup chopped fresh cilantro
+Shredded cheese, for topping (optional)
+Instructions:
+
+Preheat the oven to 375�F. Cut off the tops of the peppers and remove the seeds and membranes. Rinse the peppers and set them aside.
+
+In a medium saucepan, bring 2 cups of water to a boil. Add the quinoa and a pinch of salt. Reduce the heat to low, cover, and let simmer for about 18-20 minutes, or until the water is absorbed and the quinoa is tender.
+
+While the quinoa is cooking, heat the olive oil in a large skillet over medium heat. Add the onion and garlic and saut� until softened, about 5 minutes.
+
+Add the black beans, corn, diced tomatoes (with juice), chili powder, cumin, salt, and pepper to the skillet. Stir to combine and let the mixture simmer for a few minutes.
+
+When the quinoa is done, add it to the skillet with the vegetables and stir well. Add the chopped cilantro and stir again.
+
+Stuff each pepper with the quinoa mixture, pressing it down with a spoon. Place the peppers in a baking dish and cover with foil.
+
+Bake the peppers for 30-40 minutes, or until the peppers are tender and the filling is hot. Remove the foil and sprinkle shredded cheese on top of the peppers, if desired. Bake for an additional 5-10 minutes, or until the cheese is melted and bubbly.
+
+Serve the stuffed peppers hot, garnished with additional cilantro, if desired. Enjoy!','Quinoa stuffed pepper');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (6,'Here''s a recipe for lentil curry:
+
+Ingredients:
+
+1 cup dried brown lentils
+1 tablespoon vegetable oil
+1 onion, diced
+2 cloves garlic, minced
+1 tablespoon grated fresh ginger
+2 tablespoons curry powder
+1 can (14 oz) diced tomatoes
+1 can (14 oz) coconut milk
+1 cup water or vegetable broth
+1 teaspoon salt
+1/4 teaspoon black pepper
+Juice of 1/2 lemon
+Fresh cilantro, chopped (optional)
+Instructions:
+
+Rinse the lentils and pick out any stones or debris. In a large pot, bring 4 cups of water to a boil. Add the lentils and simmer for about 20-25 minutes, or until the lentils are tender. Drain the lentils and set them aside.
+
+Heat the vegetable oil in a large skillet over medium heat. Add the onion and saut� for 5-7 minutes, or until softened.
+
+Add the garlic, ginger, and curry powder to the skillet. Stir well and cook for 1-2 minutes, or until fragrant.
+
+Add the diced tomatoes (with juice), coconut milk, water or broth, salt, and black pepper to the skillet. Stir well to combine.
+
+Add the cooked lentils to the skillet and stir to coat them with the curry sauce. Let the curry simmer for 10-15 minutes, or until the sauce has thickened slightly.
+
+Add the lemon juice to the skillet and stir again. Taste and adjust the seasoning as needed.
+
+Serve the lentil curry hot, garnished with fresh cilantro if desired. Serve with rice or naan bread. Enjoy!','lentil curry');
+INSERT INTO recipe(aid,recipe,substitute) VALUES (6,'Here''s a recipe for roasted vegetables with canola oil:
+
+Ingredients:
+
+1 lb. mixed vegetables (such as carrots, potatoes, broccoli, cauliflower, or Brussels sprouts)
+2 tablespoons canola oil
+1 teaspoon salt
+1/2 teaspoon black pepper
+1 teaspoon dried herbs (such as rosemary, thyme, or oregano)
+Instructions:
+
+Preheat the oven to 400�F.
+
+Cut the vegetables into bite-sized pieces and place them on a large baking sheet.
+
+Drizzle the canola oil over the vegetables and toss to coat them evenly.
+
+Sprinkle the salt, black pepper, and dried herbs over the vegetables and toss again to distribute the seasonings.
+
+Roast the vegetables in the oven for 25-30 minutes, or until they are tender and browned around the edges.
+
+Serve the roasted vegetables hot as a side dish or use them in salads, grain bowls, or sandwiches. Enjoy!','Roasted vegetable with canola oil');
+
+
+
+update allergy set allergen='Milk' where aid=1;
+update allergy set allergen='Eggs' where aid=2;
+update allergy set allergen='Peanuts' where aid=3;
+update allergy set allergen='Wheat' where aid=4;
+update allergy set allergen='Sesame' where aid=5;
+update allergy set allergen='Soy' where aid=6;
+update allergy set allergen='Mustard' where aid=7;
+update allergy set allergen='Fish' where aid=8;
+update allergy set allergen='Shellfish' where aid=9;

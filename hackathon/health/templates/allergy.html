@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <!-- <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">
+              <img src="https://images.deepai.org/art-image/a339ca5f35b1478fba87b30505f00b10/milk-9d9bc4.jpg" width="30" height="30" alt="">
+            </a>
+          </nav> -->
+
+          <!-- <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" style="height:70; width:100%; background-color:#354F52;">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="10" height="10" role="img" aria-label="Bootstrap">
+                <div><iframe src="https://d1csarkz8obe9u.cloudfront.net/index.php/posterbuilder/view/326ec9c5cb790ea7ffa089485eb990a5/1" style="height:100%; width:100%; border:none;"></iframe></div>
+                
+                
+                <use xlink:href="#bootstrap"></use></svg>
+            </a>
+        
+            
+          </div>
+         -->
+            <!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+        
+            </ul>
+        
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form>
+        
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div> -->
+          
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+    
+    
+<style> 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+    background-color: #f27d12;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    h1 {
+    margin: 0;
+    color:#EDEAE5;
+    text-align: center;
+    }
+
+    .maincontainer
+    {
+        width: 302px;
+        height: 299px;
+        margin: 10px;
+        float: left; /* stack each div horizontally */
+    }
+
+    img
+    {
+    border-radius: 10px;
+    }
+
+    .back h2
+    {
+        position: absolute;
+    }
+
+    .back p
+    {
+        position: absolute;
+        top: 50px;
+        font-size: 15px;
+    }
+
+    .front h2
+    {
+        position: absolute;
+        padding: 10px;
+        top: 200px;
+        color: #000;
+    }
+
+    /* style the maincontainer class with all child div's of class .front */
+    .maincontainer > .front
+    {
+        position: absolute;
+        transform: perspective(600px) rotateY(0deg);
+        
+        width: 302px;
+        height: 290px;
+        
+        backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+        transition: transform .5s linear 0s;
+    }
+
+    /* style the maincontainer class with all child div's of class .back */
+    .maincontainer > .back
+    {
+        position: absolute;
+        text-align :center;
+        transform: perspective(600px) rotateY(180deg);
+        background: #262626;
+        color: #fff;
+        width: 302px;
+        height: 290px;
+        border-radius: 10px;
+        padding: 5px;
+        backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+        transition: transform .5s linear 0s;
+    }
+
+    .maincontainer:hover > .front
+    {
+        transform: perspective(600px) rotateY(-180deg);
+    }
+
+    .maincontainer:hover > .back
+    {
+        transform: perspective(600px) rotateY(0deg);
+    }
+
+    .btn {
+        cursor: pointer;
+        border: 0px solid #3498db;
+        background-color: transparent;
+        height: 300px;
+        width: 300px;
+        color: #3498db;
+        font-size: 1.5em;
+
+        margin: 10px 10px;
+    }
+    
+
+    
+</style>
+
+</head>
+
+<body style="background-color:#fed8b1;">
+    <header>
+        <h1 style="color:#EDEAE5">VARIOUS ALLERGENS</h1>
+      </header>
+    <center>
+        
+    <table>
+
+        <tr>
+          <td>
+            <form method = "post" action="/recipes/milk">
+            {% csrf_token %}
+            <button class="btn">
+            <div class="container">
+                <div class="maincontainer">
+                    <div class="back">  
+                        <h2>{{ list.0.1 }}</h2>
+                        <p style="color:white;"><br>{{ list.0.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://images.deepai.org/art-image/a339ca5f35b1478fba87b30505f00b10/milk-9d9bc4.jpg"  width="300" height="300" width: 100%>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+          </td>
+
+          <td>
+            <form method = "post" action="/recipes/hello">
+            {% csrf_token %}
+            <button class="btn">
+            <div class="maincontainer">
+                <div class="back">
+                    <div padding:10px>
+
+                    <h2>{{ list.1.1 }}</h2>
+                        
+                    </div>
+                    <p><br>{{ list.1.2 }}</p>
+                </div>
+                <div class="front">
+                    <div class="image">
+                    <img src="https://images.deepai.org/art-image/9f269ff021d44a7d947abd8ec03db078/eggs-37aa4c-thumb.jpg" width="300" height="300" width: 100%>
+                    </div>
+                </div>
+            </div>
+            </button>
+        </form>
+          </td>
+          <td>
+            <form method = "post" action="/recipes/bye">
+            {% csrf_token %}
+            <button class="btn">
+            <div class="maincontainer">
+                <div class="back">
+                    <h2>{{ list.2.1 }}</h2>
+                    <p><br>{{ list.2.2 }}</p>
+                </div>
+                <div class="front">
+                    <div class="image">
+                    <img src="https://images.deepai.org/art-image/ff398054373c4bd18ff9f41c5834633f/crunchy-peanuts.jpg" width="300" height="300" width: 100%>
+                    
+                    </div>
+                </div>
+            </div>
+        </button>
+    </form>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <form method = "post" action="/recipes/wheat">
+                {% csrf_token %}
+                <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.3.1 }}</h2>
+                        <p><br>{{ list.3.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="http://spartanburgsda.com/wp-content/uploads/Page-GetInvolved-300x300.jpg" width="300" height="300" width: 100%>
+                        
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+            </td>
+            <td>
+                <form method = "post" action="/recipes/sesame">
+                {% csrf_token %}
+                <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.4.1 }}</h2>
+                        <p><br>{{ list.4.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://24farms.com/wp-content/uploads/2021/08/Sesame-Black-Seeds-300x300.jpg" width="300" height="300" width: 100%>
+                        
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+            </td>
+
+
+            <td>
+                <form method = "post" action="/recipes/soy">
+                {% csrf_token %}
+                <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.5.1 }}</h2>
+                        <p><br>{{ list.5.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://images.deepai.org/art-image/134c69e3f8b941108e5fb9c2d4f87c75/japan-soy-beans-83b3ea.jpg" width="300" height="300" width: 100%>    
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form method = "post" action="/recipes/mustard">
+                {% csrf_token %}
+                <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.6.1 }}</h2>
+                        <p><br>{{ list.6.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://www.microbasket.com/wp-content/uploads/2020/06/Mustard-Seeds-300x300.jpg" width="300" height="300" width: 100%>    
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+            </td>
+            <td>
+                <form method = "post" action="/recipes/fish">
+                    {% csrf_token %}
+                    <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.7.1 }}</h2>
+                        <p><br>{{ list.7.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://i.pinimg.com/474x/b9/99/c1/b999c18b127b86814d99e5415468f67a--onion-recipes-chicken-recipes.jpg" width="300" height="300" width: 100%>    
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </form>
+            </td>
+            <td>
+                <form method = "post" action="/recipes/shellfish">
+                    {% csrf_token %}
+                    <button class="btn">
+                <div class="maincontainer">
+                    <div class="back">
+                        <h2>{{ list.8.1 }}</h2>
+                        <p><br>{{ list.8.2 }}</p>
+                    </div>
+                    <div class="front">
+                        <div class="image">
+                        <img src="https://shellfishsouthwest.co.uk/wp-content/uploads/2021/05/Shellfish-from-Devon2-300x300.jpeg" width="300" height="300" width: 100%>    
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </button>
+        </form>
+            </td>
+        </tr>
+    
+      </table>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
